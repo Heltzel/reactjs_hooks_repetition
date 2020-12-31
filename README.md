@@ -13,6 +13,8 @@ The src folder contains subfolders about the topics.
 
 The imports in  App.js need to be modified manualy.
 
+powerpointSlides contains handy reminders.
+
 ***
 
 ## Topics:
