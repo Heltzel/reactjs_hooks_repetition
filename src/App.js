@@ -1,5 +1,5 @@
 import './App.css'
-import Index from './topics/useStateHook/ArrayUseState05'
+import Index from './topics/useEffectHook/UseEffectFetchData06'
 
 function App() {
   return (
