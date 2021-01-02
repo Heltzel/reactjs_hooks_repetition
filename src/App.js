@@ -1,10 +1,13 @@
 import './App.css'
-import Index from './topics/useEffectHook/UseEffectFetchData06'
+import PostContextProvider from './topics/useContextHook/contexts/PostContext'
+import Index from './topics/useContextHook/UseContextHook'
 
 function App() {
   return (
     <div className="App container">
-      <Index />
+      <PostContextProvider>
+        <Index />
+      </PostContextProvider>
     </div>
   )
 }

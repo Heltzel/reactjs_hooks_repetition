@@ -19,7 +19,7 @@ function UseEffectFetchData06() {
       })
       .catch((err) => console.log(err))
     return () => {}
-  }, [idFromBtnClick])
+  }, [idFromBtnClick, id])
 
   return (
     <div>
